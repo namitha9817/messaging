@@ -1,0 +1,22 @@
+{
+	"name": "mailboxvalidator/mailboxvalidator-php",
+	"description": "Email verification library for PHP using MailboxValidator API. It validates if the email is valid, from a free provider, contains high-risk keywords, whether it's a catch-all address and so much more.",
+	"type": "library",
+	"license": "LGPL-3.0",
+	"keywords": ["mailboxvalidator","email validation"],
+	"authors": [
+		{
+			"name": "MailboxValidator",
+			"email": "support@mailboxvalidator.com"
+		}
+	],
+	"require": {
+			"php": ">=5.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"MailboxValidator\\": "src/"
+		}
+	},
+	"version": "1.1.0"
+}
